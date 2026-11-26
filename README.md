@@ -11,7 +11,7 @@ v_2(D(2j+2)) &= 2j + e_{j\bmod 8},\qquad (e_0,\ldots,e_7)=(0,1,3,0,0,1,2,0).
 \end{aligned}
 $$
 
-Together they give the OEIS formula for every positive index. The formal theorem is `MathMiner.A402435.solution`. [Statement and triangle definition](MathMiner/Problems/A402435/Statement.lean) · [Lean proof](MathMiner/Problems/A402435/Proof.lean) · [中文证明](PROOF.md)
+Together they give the OEIS formula for every positive index. The formal theorem is `MathMiner.A402435.solution`. [Statement and triangle definition](MathMiner/Problems/A402435/Statement.lean) · [Lean proof](MathMiner/Problems/A402435/Proof.lean) · [Proof walkthrough](PROOF.md)
 
 ## Reproduce the check
 
