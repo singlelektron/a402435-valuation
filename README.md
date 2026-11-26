@@ -1,6 +1,6 @@
 # The exact 2-adic valuation of OEIS A386381
 
-This is a Lean 4 proof of Peter Luschny's conjecture A402435 about the diagonal of Mikhail Kurkov's weighted Entringer triangle. The proof was developed with AI assistance and checked locally with Lean and Mathlib v4.36.0. Human review is pending. [A402435](https://oeis.org/A402435) · [A386381](https://oeis.org/A386381)
+This is a Lean 4 proof of Peter Luschny's conjecture A402435 about the diagonal of Mikhail Kurkov's weighted Entringer triangle. The proof was developed with AI assistance and checked locally with Lean and Mathlib v4.36.0. [A402435](https://oeis.org/A402435) · [A386381](https://oeis.org/A386381)
 
 Let $D(n)$ be the diagonal entry in row $n$ and let $v_2$ denote the exponent of 2. For every $m,j\ge 0$, the two branches are
 
