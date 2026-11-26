@@ -1,5 +1,7 @@
 # The exact 2-adic valuation of OEIS A386381
 
+[![Lean verification](https://github.com/singlelektron/a402435-valuation/actions/workflows/lean.yml/badge.svg?branch=main)](https://github.com/singlelektron/a402435-valuation/actions/workflows/lean.yml)
+
 This is a Lean 4 proof of Peter Luschny's conjecture A402435 about the diagonal of Mikhail Kurkov's weighted Entringer triangle. The proof was developed with AI assistance and checked locally with Lean and Mathlib v4.36.0. [A402435](https://oeis.org/A402435) · [A386381](https://oeis.org/A386381)
 
 Let $D(n)$ be the diagonal entry in row $n$ and let $v_2$ denote the exponent of 2. For every $m,j\ge 0$, the two branches are
@@ -14,6 +16,8 @@ $$
 Together they give the OEIS formula for every positive index. The formal theorem is `MathMiner.A402435.solution`. [Statement and triangle definition](MathMiner/Problems/A402435/Statement.lean) · [Lean proof](MathMiner/Problems/A402435/Proof.lean) · [Proof walkthrough](PROOF.md)
 
 ## Reproduce the check
+
+GitHub Actions runs the build and axiom audit on every push and pull request.
 
 With [elan](https://github.com/leanprover/elan) installed, run these commands from the repository root.
 
